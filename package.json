@@ -1,0 +1,25 @@
+{
+  "name": "production-ai-builder",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "next-auth": "^4.24.5",
+    "bcryptjs": "^2.4.3",
+    "validator": "^13.11.0",
+    "rate-limiter-flexible": "^3.0.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-config-next": "14.0.0"
+  }
+}
